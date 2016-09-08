@@ -1,7 +1,7 @@
 3D topographic mapping for biological images
 ============================================
 
-This package is created to help biologists in distinguishing different tissue areas depending on fluorescence intensity. The general idea of the approach is somewhat similar to surface plot, where z-dimension is created from the pixel intensity, but with the crucial difference in direction along which the intensity profiles are collected.
+This package is created to help biologists in distinguishing different tissue areas depending on fluorescence intensity. The general idea of the approach is somewhat similar to surface plot, where z-dimension is created from the pixel intensity, but with the crucial difference in a direction along which the intensity profiles are collected.
 
 How it works
 -------------
@@ -33,6 +33,6 @@ How it works
 
 1. Prerequisites Python 3.5 + numpy + pandas + os + scipy.interpolate
 2. In surfaceplot.py, set singleFolder to the folder where the profile bins have been stocked
-3. Launch the scrypt, the visualization is built using plotly extention
+3. Launch the script, the visualization is built using plotly extension
 
 
